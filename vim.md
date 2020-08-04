@@ -1,0 +1,16 @@
+- `:r !command` to echo the result of a shell command in the current buffer
+- I'm having a little trouble with `:` command syntax - it seems to arbitary. Why can I combine `!` anywhere in the command? Is that a global feature?
+- Vim interative search `is` and highlight search `hlsearch`. `\c` to ignore case for current search; `set ic` to ignore case for all.
+- How do I freaking disable highlight after I finished my search? Do I need to turn off hlsearch when I'm done?
+- `ge` end of word backwards
+- `set iskeyword` lists tokens that are used in word navigation
+- `H` `M` `L` to reposition cursor in screen
+- `C-g` to show info about current file
+- `U` to undo all changes in a line
+- `*` in search to search for current word
+- marks. marks are cool and important. remember to use them `m_` _ in [a-z] and `_ to jump 
+
+- C-v for block visual mode. o and O for switch cursor positions
+- ~ can work as an OP if `tildeop` is set. ~ works in visual mode
+- sentence word object; word word objects; `aw` includes space.
+- * register to yank to clipboard, not sure how it works
