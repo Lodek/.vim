@@ -14,3 +14,4 @@
 - ~ can work as an OP if `tildeop` is set. ~ works in visual mode
 - sentence word object; word word objects; `aw` includes space.
 - * register to yank to clipboard, not sure how it works
+- Global marks are set with the uppercase letters
