@@ -6,6 +6,7 @@ set showcmd		" display incomplete commands
 set wildmenu		" display completion matches in a status line
 set nocompatible 
 set nobackup 		"ney ney
+set laststatus=2
 
 set ttimeout		" time out for key codes
 set ttimeoutlen=100	" wait up to 100ms after Esc for special key
@@ -16,4 +17,10 @@ syntax on
 set is 
 set incsearch
 
+set tabstop=8
+set softtabstop=0
+set expandtab
+set shiftwidth=4
+
 packadd! matchit
+
