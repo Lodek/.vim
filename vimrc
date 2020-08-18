@@ -27,3 +27,7 @@ set linebreak
 
 packadd! matchit
 
+map <C-LEFT> <C-w>h
+map <C-DOWN> <C-w>j
+map <C-RIGHT> <C-w>l
+map <C-UP> <C-w>k
