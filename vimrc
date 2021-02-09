@@ -35,6 +35,7 @@ map <C-UP> <C-w>k
 
 call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Tmux Navigation
